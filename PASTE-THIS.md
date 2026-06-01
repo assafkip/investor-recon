@@ -6,9 +6,11 @@ This is the free product. Open Claude Code, do the 5-minute setup once, paste th
 
 ## Start here (5 minutes, one time)
 
-1. **Get Claude Code.** Download the desktop app from claude.ai and sign in. (Free or paid Claude both work.)
-2. **Open it. It will ask you to open a folder.** This is the one step nobody expects. Just make a new empty folder on your Desktop, name it anything (like "recon"), and pick it. That folder is where your briefs get saved. That is all the folder is for.
-3. **Turn on web access** if it asks. The whole point is that it searches the real internet, not its memory.
+1. **You need a paid Claude plan (Pro or higher).** Claude Code lives inside the Claude desktop app, and the Code tab will not open on free Claude. If you only have free Claude, this tool will not run.
+2. **Get the app.** Download the Claude desktop app from claude.com/download, install it, and sign in. No terminal needed.
+3. **Open the Code tab** at the top. If it asks you to upgrade, you are on free Claude and need a paid plan.
+4. **Pick a folder.** Choose "Local", click "Select folder", and pick a new empty folder (make one on your Desktop called "recon"). That folder is where your briefs get saved. That is all it is for. (Windows only: you also need Git installed, from git-scm.com.)
+5. **Web search is built in.** If it ever asks to enable web access, say yes. That is what lets it read the fund's real material instead of guessing.
 
 That is the setup. You only do it once.
 
