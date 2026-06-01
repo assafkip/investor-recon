@@ -1,0 +1,11 @@
+{
+  "name": "investor-recon",
+  "version": "1.0.0",
+  "description": "Threat-intelligence prep for VC meetings. Searches the fund's real material, builds a grounded brief, and refuses to guess. Every claim is cited.",
+  "author": {
+    "name": "Assaf Kipnis",
+    "email": "assaf@askconsulting.io"
+  },
+  "license": "MIT",
+  "keywords": ["vc", "fundraising", "investor-research", "due-diligence", "founder-tools"]
+}

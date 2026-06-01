@@ -1,6 +1,6 @@
 # investor-recon
 
-A threat-intelligence approach to VC meetings. Built with Claude Code.
+A threat-intelligence approach to VC meetings. Runs in Claude Code, searches the fund's real material, and refuses to make things up.
 
 I spent 12 years doing threat intelligence. The job was simple to describe. Build a picture of an adversary before they ever know you are looking. Their patterns, their gaps, their next move.
 
@@ -10,38 +10,39 @@ Most founders prep by rehearsing their pitch. That is backwards. The pitch is no
 
 So stop rehearsing. Run recon.
 
-This is the system I use. Six prompts. About 25 minutes per investor. Drop them into Claude Code, fill the blanks, get a brief.
+## The rule that matters
+
+This searches the real internet for the fund's material and cites every claim. If it cannot find something, it says "Not found." It never guesses the fund's deals, thesis, or check size from the name. A confident wrong brief walks you into the wrong room. That is worse than no brief.
+
+This is why it runs in Claude Code, not a chat box. Claude Code can actually search and fetch. A plain chat guesses, and you cannot tell. The grounding is the product.
 
 ## What it produces
 
-- **Thesis brief.** What this fund actually backs. Stage, sector, check size, the pattern across their last ten deals. Not what their homepage says. What their behavior says.
-- **Portfolio map.** Where you fit. Where you collide with a company they already own. Where the gap is that you fill.
-- **Question set.** The questions they will ask, derived from their thesis and your stage. Not generic. Theirs.
-- **The hesitation.** The single thing about your company that makes this specific fund pause. Every founder has one. You want to know it before they do.
-- **The counter.** How you answer the hesitation before they raise it.
-- **The room read.** What they are confirming about you. What to walk in already knowing.
+- **Thesis brief.** What this fund actually backs, quoted from their own material, with links. Their words separated from your read of their deals.
+- **Portfolio map.** Where you fit, which portfolio company you collide with, the gap you fill.
+- **Question set.** The questions this partner will ask, from their cited thesis and your stage.
+- **The hesitation.** The single thing about your company that makes this specific fund pause.
+- **The counter.** How you answer it before they raise it.
+- **Sources and gaps.** Every link used, and an honest list of what it could not confirm.
 
-## Quickstart
+## Use it (two ways)
 
-1. Open Claude Code (or any Claude chat).
-2. Open [`SYSTEM.md`](SYSTEM.md).
-3. Run the six prompts in order. Paste in the fund's site, the partner's writing, your deck.
-4. You get a brief. See [`example-brief.md`](example-brief.md) for what it looks like filled in.
+**Easiest, no install.** Open Claude Code, then copy the block in [`PASTE-THIS.md`](PASTE-THIS.md) and paste it in. It asks you two questions and runs. Full setup steps (including the folder step Claude Code asks for) are in that file.
 
-No setup. No API key. No account. Copy, paste, run.
+**As a command.** Install the plugin:
 
-## Why this works
+```
+/plugin install github:assafkip/investor-recon
+```
 
-Threat intel taught me one thing. The side that does the homework controls the room. Not the louder side. Not the more polished deck. The side that already knows what the other side is thinking.
+Then run `/investor-recon` in any Claude Code session.
 
-A founder who walks in knowing the fund's hesitation is not pitching anymore. They are confirming a thesis they shaped.
+See [`example-brief.md`](example-brief.md) for what a finished brief looks like.
 
 ## Who built this
 
-I build custom AI systems for founders and small teams. This repo is the free, lighter version of the work I do paid.
-
-If you want the meeting-prep system wired into your actual fundraise, or you have a different operational problem an AI system should be doing for you, that is the consulting. Reach me at assaf@askconsulting.io.
+I build custom AI systems for founders and small teams. This repo is the free, lighter version of the work I do paid. If you want it wired into your actual raise, or a different operational problem an AI system should be handling, reach me at assaf@askconsulting.io.
 
 ## License
 
-MIT. Use it, fork it, ship it. See [`LICENSE`](LICENSE).
+MIT. See [`LICENSE`](LICENSE).
