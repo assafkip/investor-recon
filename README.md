@@ -2,6 +2,10 @@
 
 A threat-intelligence approach to VC meetings. Runs in Claude Code, searches the fund's real material, and refuses to make things up.
 
+![investor-recon in 25 seconds: walk in blind vs walk in with the brief](https://claudedaddy.io/assets/recon-demo.gif)
+
+[Interactive version of this brief](https://claudedaddy.io/demo-recon.html) · [claudedaddy.io](https://claudedaddy.io)
+
 I spent 12 years doing threat intelligence. The job was simple to describe. Build a picture of an adversary before they ever know you are looking. Their patterns, their gaps, their next move.
 
 A VC meeting is the same problem.
@@ -57,3 +61,4 @@ I spent 12 years in threat intelligence watching teams find the same failure and
 This is the free version. The paid kits live at [claudedaddy.io](https://claudedaddy.io).
 
 **Want this wired into your team's repo, or a heavier spec-and-review pipeline?** That's the consulting. [Book a call.](https://calendar.app.google/cMFvhvDsfi9iyWYy9)
+
