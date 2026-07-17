@@ -1,6 +1,8 @@
-# investor-recon
+# The VC Prep Brief
 
-A threat-intelligence approach to VC meetings. Runs in Claude Code, searches the fund's real material, and refuses to make things up.
+*(repo: `investor-recon`)*
+
+Know what the VC already decided before you walk in. One page on any fund: their real thesis, where you fit, and the objection that kills the deal. Runs in Claude Code, searches the fund's real material, and refuses to make things up.
 
 ![investor-recon in 25 seconds: walk in blind vs walk in with the brief](https://claudedaddy.io/assets/recon-demo.gif)
 
